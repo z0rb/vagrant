@@ -10,5 +10,3 @@ if File.exist?(File.expand_path("../../vagrant-spec", __FILE__))
 else
   gem 'vagrant-spec', git: "https://github.com/hashicorp/vagrant-spec.git", branch: :main
 end
-
-gem 'log4r'
